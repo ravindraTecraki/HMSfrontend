@@ -1,0 +1,105 @@
+
+.login-button>li{
+    margin-right: 5px;
+
+}
+.header-blue {
+ 
+    background-color: #f1dfd1;
+   background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+    background-color: #184e8e;
+    padding-bottom: 80px;
+ 
+  }
+  
+  @media (min-width:768px) {
+    .header-blue {
+      padding-bottom: 120px;
+    }
+  }
+  
+  .header-blue .navbar {
+    background: transparent;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+   color:black;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+  }
+  
+  @media (min-width:768px) {
+    .header-blue .navbar {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+  
+.main-content{
+   
+    align-items: center;
+    padding-top:200px;
+}
+.action-button{
+  background-color: #ddd;
+  font-weight: 600;
+}
+.navbar-brand{
+  font-weight: 600;
+}
+.nav-link{
+  font-size: 16px;
+ margin-right: 5px;
+  font-weight: 600;
+  background-color: #f1dfd1;
+  border-radius: 5px;
+}
+.nav-link:hover{
+  outline: #184e8e;
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+.login-option{
+  color: balck;
+}
+/* Style the custom dropdown button */
+.custom-dropbtn {
+ 
+
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+ 
+  border: 2px solid #035303;
+
+}
+
+/* Style the custom dropdown content (hidden by default) */
+.custom-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: bisque;
+  z-index: 1;
+}
+
+/* Style the custom dropdown links */
+.custom-dropdown-content a {
+  color: black;
+  padding:10px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* Change color on hover */
+.custom-dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the custom dropdown menu on hover */
+.custom-dropdown:hover .custom-dropdown-content {
+  display: block;
+}

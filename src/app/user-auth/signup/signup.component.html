@@ -1,0 +1,327 @@
+<!-- <div class="container">
+  <div class="row signup">
+    <div class="col-md-7 signup-box">
+      <h3>User Singnup</h3>
+      <div class="app-signup">
+        <form class="row g-3" [formGroup]="usersingnup" (ngSubmit)="signUp()">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">First Name </label>
+            <input type="text" formControlName="firstname" class="form-control" placeholder="First name"
+              aria-label="First name" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Last Name</label>
+            <input type="text" formControlName="lastname" class="form-control" placeholder="Last name"
+              aria-label="Last name" />
+          </div>
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="example@email.com"
+              formControlName="email" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" formControlName="password
+  " />
+          </div>
+          <div class="col-md-6">
+            <label for="confirmPassword" class="form-label"> Confirm Password</label>
+            <input type="password" class="form-control" id="inputPassword4" formControlName="cnfpassword" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" formControlName="address" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" formControlName="city" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select" formControlName="state">
+             
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+              <option value="Daman and Diu">Daman and Diu</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Lakshadweep">Lakshadweep</option>
+              <option value="Puducherry">Puducherry</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="West Bengal">West Bengal</option>
+              <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" formControlName="zip" />
+          </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign Up </button>
+          </div>
+          <p>Already have a account <a routerLink=""> Login Here </a></p>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-5 img">
+      <img src="assets\img\signup.svg" class="signup-img" alt="" />
+    </div>
+  </div>
+</div> -->
+
+<body>
+  <div class="login-root">
+    <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+      <div class="loginbackground box-background--white padding-top--64">
+        <div class="loginbackground-gridContainer">
+          <div class="box-root flex-flex" style="grid-area: top / start / 8 / end;">
+            <div class="box-root"
+              style="background-image: linear-gradient(white 0%, rgb(247, 250, 252) 33%); flex-grow: 1;">
+            </div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 4 / 2 / auto / 5;">
+            <div class="box-root box-divider--light-all-2 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 6 / start / auto / 2;">
+            <div class="box-root box-background--blue800" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 7 / start / auto / 4;">
+            <div class="box-root box-background--blue animationLeftRight" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 8 / 4 / auto / 6;">
+            <div class="box-root box-background--gray100 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 2 / 15 / auto / end;">
+            <div class="box-root box-background--cyan200 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 3 / 14 / auto / end;">
+            <div class="box-root box-background--blue animationRightLeft" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 4 / 17 / auto / 20;">
+            <div class="box-root box-background--gray100 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 5 / 14 / auto / 17;">
+            <div class="box-root box-divider--light-all-2 animationRightLeft tans3s" style="flex-grow: 1;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <h1><a href="http://blog.stackfindover.com/" rel="dofollow">User Signup</a></h1>
+        </div>
+        <div class="formbg-outer">
+          <div class="formbg ">
+            <div class="formbg-inner padding-horizontal--48 col-12">
+              <span class="padding-bottom--15">Signup to your account</span>
+              <form class="row g-3 "[formGroup]="usersignup" (ngSubmit)="signUp()">
+                <div class="col-md-6 field padding-bottom--24">
+                  <label for="inputEmail4" class="form-label">First Name </label>
+                  <input type="text" formControlName="firstname" class="form-control" placeholder="First name"
+                    aria-label="First name" />
+                  <div class="text text-danger"
+                    *ngIf="Firstname.errors?.['required'] && (Firstname.touched || Firstname.dirty)">
+                    First Name is required
+                  </div>
+                  <div class="text text-danger"
+                    *ngIf="Firstname.errors?.['minlength'] && (Firstname.touched || Firstname.dirty)">
+                    name is too short
+                  </div>
+                  <div class="text text-danger"
+                    *ngIf="Firstname.errors?.['pattern'] && (Firstname.touched || Firstname.dirty)">
+                    Name does not contain Numeric character
+                  </div>
+                </div>
+
+                <div class="col-md-6 field padding-bottom--24">
+                  <label for="inputEmail4" class="form-label">Last Name</label>
+                  <input type="text" formControlName="lastname" class="form-control" placeholder="Last name"
+                    aria-label="Last name" />
+                    <div class="text text-danger" *ngIf="Lastname.errors?.['required'] && (Lastname.touched || Lastname.dirty)">
+                      Last Name is required
+                  </div>
+                  <div class="text text-danger"
+                      *ngIf="Lastname.errors?.['minlength'] && (Lastname.touched || Lastname.dirty)">
+                      name is too short
+                  </div>
+                  <div class="text text-danger" *ngIf="Lastname.errors?.['pattern'] && (Lastname.touched || Lastname.dirty)">
+                      Name does not contain Numeric character
+                  </div>
+                </div>
+                <div class="col-md-12 field padding-bottom--24">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="example@email.com"
+                    formControlName="email" />
+                  <div class="text text-danger" *ngIf="Email.errors?.['pattern'] && (Email.touched || Email.dirty)">
+                    Please Enter Correct email
+
+                  </div>
+                  <div class="text text-danger" *ngIf="Email.errors?.['required'] && (Email.touched || Email.dirty)">
+                    Please Enter Correct email
+
+                  </div>
+                </div>
+                <div class="col-md-6 field padding-bottom--24">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4" formControlName="password" />
+                  <div class="text text-danger"
+                    *ngIf="Password.errors?.['required'] && (Password.touched || Password.dirty)">Please Enter Password
+
+                  </div>
+                  <div class="text text-danger"
+                    *ngIf="Password.errors?.['minlength'] && (Password.touched || Password.dirty)">Atleast 6 character
+                    required
+
+                  </div>
+                  <div class="text text-danger"
+                    *ngIf="Password.errors?.['pattern'] && (Password.touched || Password.dirty)">Password must have one
+                    special Character
+                  </div>
+                </div>
+                <div class="col-md-6 field padding-bottom--24">
+                  <label for="confirmPassword" class="form-label"> Confirm Password</label>
+                  <input type="password" class="form-control" id="inputPassword4" formControlName="cnfpassword" />
+                  <div class="text text-danger"
+                    *ngIf="Cnfpassword.errors?.['required'] && (Cnfpassword.touched || Cnfpassword.dirty)">Please Enter
+                    Cnfpassword
+
+                  </div>
+                  <div class="text text-danger"
+                    *ngIf="Cnfpassword.errors?.['minlength'] && (Cnfpassword.touched || Cnfpassword.dirty)">Atleast 6
+                    character required
+
+                  </div>
+                  <div class="text text-danger"
+                    *ngIf="Cnfpassword.errors?.['pattern'] && (Cnfpassword.touched || Cnfpassword.dirty)">Password must
+                    have one special Character
+                  </div>
+                </div>
+                <div class="col-12 field padding-bottom--24">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"
+                    formControlName="address" />
+                    <div class="text text-danger" *ngIf="Address.errors?.['required'] && (Address.touched || Address.dirty)">
+                      Address is required
+                  </div>
+                </div>
+                <div class="col-md-6 field padding-bottom--24">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity" formControlName="city" />
+                  <div class="text text-danger" *ngIf="City.errors?.['required'] && (City.touched || City.dirty)">
+                    city is require
+                </div>
+                <div class="text text-danger" *ngIf="City.errors?.['pattern'] && (City.touched || City.dirty)">
+                    city valid Pin
+                </div>
+                </div>
+                <div class="col-md-4 field padding-bottom--24">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select padding-bottom--24" formControlName="state">
+
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Puducherry">Puducherry</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                  </select>
+                  <div class="text text-danger" *ngIf="State.errors?.['required'] && (State.touched || State.dirty)">
+                    State is require
+                </div>
+                </div>
+                <div class="col-md-2 field padding-bottom--24">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip" formControlName="zip" />
+                  <div class="text text-danger" *ngIf="Zip.errors?.['required'] && (Zip.touched || Zip.dirty)">
+                    Pincode is required
+                </div>
+                <div class="text text-danger" *ngIf="Zip.errors?.['minlength'] && (Zip.touched || Zip.dirty)">
+                    Pincode must be a number of 6 digits
+                </div>
+                <div class="text text-danger" *ngIf="Zip.errors?.['maxlength']  && (Zip.touched || Zip.dirty)">
+                    Pincode must be a number of 6 digits
+                </div>
+                <div class="text text-danger" *ngIf="Zip.errors?.['pattern']  && (Zip.touched || Zip.dirty)">
+                    Pincode must be a number
+                </div>
+                </div>
+
+                <div class="col-6 field padding-bottom--24">
+                  <button type="submit" class=" signup-button btn btn-primary">Sign Up </button>
+                </div>
+                <p>Already have a account <a routerLink=""> Login Here </a></p>
+              </form>
+
+
+            </div>
+          </div>
+          <div class="footer-link padding-top--24">
+         
+            <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
+              <span><a href="#">© Tecraki Technology Solutions </a></span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
